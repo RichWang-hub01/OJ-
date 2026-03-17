@@ -54,7 +54,7 @@ public class QuestionController {
     // region 增删改查
 
     /**
-     * 创建
+     * 创建题目
      *
      * @param questionAddRequest
      * @param request
@@ -91,7 +91,7 @@ public class QuestionController {
     }
 
     /**
-     * 删除
+     * 删除题目
      *
      * @param deleteRequest
      * @param request
@@ -116,7 +116,7 @@ public class QuestionController {
     }
 
     /**
-     * 更新（仅管理员）
+     * 更新题目（仅管理员）
      *
      * @param questionUpdateRequest
      * @return
@@ -152,7 +152,7 @@ public class QuestionController {
     }
 
     /**
-     * 根据 id 获取
+     * 根据 id 获取题目
      *
      * @param id
      * @return
@@ -175,7 +175,7 @@ public class QuestionController {
     }
 
     /**
-     * 根据 id 获取（脱敏）
+     * 根据 id 获取题目（脱敏）
      *
      * @param id
      * @return
@@ -193,7 +193,7 @@ public class QuestionController {
     }
 
     /**
-     * 分页获取列表（封装类）
+     * 分页获取题目列表（封装类）
      *
      * @param questionQueryRequest
      * @param request
@@ -212,7 +212,7 @@ public class QuestionController {
     }
 
     /**
-     * 分页获取当前用户创建的资源列表
+     * 分页获取当前用户创建的题目列表
      *
      * @param questionQueryRequest
      * @param request
@@ -256,7 +256,7 @@ public class QuestionController {
     // endregion
 
     /**
-     * 编辑（用户）
+     * 编辑题目（用户）
      *
      * @param questionEditRequest
      * @param request

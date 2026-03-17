@@ -38,6 +38,11 @@ public class UserInnerController implements UserFeignClient {
      * @param idList
      * @return
      */
+    /**
+     * 根据 id 集合获取用户列表
+     * @param idList
+     * @return
+     */
     @Override
     @GetMapping("/get/ids")
     public List<User> listByIds(@RequestParam("idList") Collection<Long> idList) {

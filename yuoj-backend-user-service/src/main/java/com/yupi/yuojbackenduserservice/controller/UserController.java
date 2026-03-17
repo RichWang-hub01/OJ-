@@ -114,7 +114,7 @@ public class UserController {
     // region 增删改查
 
     /**
-     * 创建用户
+     * 创建用户（仅管理员）
      *
      * @param userAddRequest
      * @param request
@@ -134,7 +134,7 @@ public class UserController {
     }
 
     /**
-     * 删除用户
+     * 删除用户（仅管理员）
      *
      * @param deleteRequest
      * @param request
@@ -151,7 +151,7 @@ public class UserController {
     }
 
     /**
-     * 更新用户
+     * 更新用户（仅管理员）
      *
      * @param userUpdateRequest
      * @param request
@@ -190,7 +190,7 @@ public class UserController {
     }
 
     /**
-     * 根据 id 获取包装类
+     * 根据 id 获取用户包装类
      *
      * @param id
      * @param request
@@ -249,7 +249,7 @@ public class UserController {
     // endregion
 
     /**
-     * 更新个人信息
+     * 更新当前登录用户的个人信息
      *
      * @param userUpdateMyRequest
      * @param request
