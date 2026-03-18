@@ -7,6 +7,10 @@ spring:
   # ?? dev ??
   profiles:
     active: dev
+  # 支持 swagger3
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 
   # session ??
   session:
@@ -55,3 +59,5 @@ mybatis-plus:
 # ??????
 codesandbox:
   type: remote
+knife4j:
+  enable: true
